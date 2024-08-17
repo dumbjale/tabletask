@@ -1,0 +1,106 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #fffbf2;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #d62607;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px #f78e64;
+}
+
+#load-data {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px;
+    background-color: #ce2b2b;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+#load-data:hover {
+    background-color: #9e2828;
+    transform: scale(1.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin-top: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden; }
+
+th, td {
+    padding: 12px; 
+    border: 1px solid #ddd;
+    text-align: center; 
+}
+
+th {
+    background-color: #f86c6c;
+    color: white;
+    font-weight: bold; 
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffbbbb; /* Alternatif satır rengi */
+}
+
+td button {
+    padding: 8px 15px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+td .view-btn {
+    background-color: #f87171;
+    color: white;
+}
+
+td .view-btn:hover {
+    background-color: #e83e3e;
+}
+
+td .delete-btn {
+    background-color: #ac0000;
+    color: white;
+}
+
+td .delete-btn:hover {
+    background-color: #d30505;
+}
+
+#back-to-table {
+    display: block;
+    margin: 20px auto; 
+    padding: 15px 30px;
+    background-color: #a73535; 
+    color: white;
+    border: none;
+    border-radius: 25px; 
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none; 
+    transition: transform 0.2s, background-color 0.2s; 
+}
+
+#back-to-table:hover {
+    background-color: #6e2a2a; 
+    transform: scale(1.1); 
+}
